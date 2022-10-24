@@ -72,9 +72,9 @@ void Calibration()
 
 void pose_home()// home position
 {
-  servo_alpha.write(alpha_0);
-  servo_beta.write(beta_0);
-  servo_gama.write(gama_0);
+  servo_alpha.write(alpha_0-45);
+  servo_beta.write(beta_0-45);
+  servo_gama.write(gama_0-45);
 }
 
 void pose_1()
